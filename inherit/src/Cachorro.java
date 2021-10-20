@@ -3,7 +3,15 @@ public class Cachorro extends Mamifero{
         super("canino", 12, "latido", "onivoro", false, true, 4);
     }
 
-    public String raca;
+    private String raca;
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
 
     @Override
     public String toString() {
