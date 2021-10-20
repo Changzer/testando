@@ -1,1 +1,1 @@
-Cachorro{raca='chihuahua'dieta= onivoro}
+Cachorro{raca='poodle'dieta= onivoro}

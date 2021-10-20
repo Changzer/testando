@@ -5,7 +5,7 @@ public class File {
 
     public static void main(String[] args) {
         Cachorro dog = new Cachorro();
-        dog.setRaca("chihuahua");
+        dog.setRaca("poodle");
         try {
             FileWriter myWriter = new FileWriter("arquivo.txt");
             myWriter.write(dog.toString());
